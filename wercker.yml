@@ -1,0 +1,6 @@
+box: wercker/ruby
+build:
+    steps:
+        - script:
+            name: rspec
+            code: bundle exec rspec
