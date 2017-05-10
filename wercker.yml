@@ -12,3 +12,10 @@ build:
         - script:
             name: rspec
             code: bundle exec rspec
+
+feature-build:
+    steps:
+        - bundle-install
+        - script:
+            name: rspec
+            code: bundle exec rspec
