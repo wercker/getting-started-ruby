@@ -5,4 +5,8 @@
       get '/'
       last_response.should be_ok
     end
+
+    it "should say true is true" do
+      true.should be false
+    end
   end
