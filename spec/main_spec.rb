@@ -7,6 +7,6 @@
     end
 
     it "should say true is true" do
-      true.should be false
+      true.should be true
     end
   end
