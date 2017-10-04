@@ -1,4 +1,8 @@
-box: phusion/passenger-ruby22
+box:
+  id: ruby:latest
+  ports:
+    - "8080"
+
 dev:
   steps:
     - bundle-install
