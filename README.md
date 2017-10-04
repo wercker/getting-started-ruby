@@ -2,7 +2,7 @@
 
 [![wercker status](https://app.wercker.com/status/3374ec0e37ec2a7e78f1d4b7112d5387/s "wercker status")](https://app.wercker.com/project/bykey/3374ec0e37ec2a7e78f1d4b7112d5387)
 
-This is a sample Python application, using the Sinatra microframework, for use with Wercker.  This application uses the default `ruby` container obtained from the [Docker Hub](https://hub.docker.com/_/ruby/)
+This is a sample Ruby application, using the Sinatra microframework, for use with Wercker.  This application uses the default `ruby` container obtained from the [Docker Hub](https://hub.docker.com/_/ruby/)
 
 ## Setup and Build
 Firstly, ensure you have the [wercker cli installed](http://devcenter.wercker.com/docs/cli/installation).
